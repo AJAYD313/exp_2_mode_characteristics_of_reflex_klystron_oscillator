@@ -69,11 +69,43 @@ As the bunches pass back through the resonator grids they interact with the gap 
 
 ## Observation
 
-*(Include your own table relevant to the experiment.)*
+### Observation Table
+
+**Operating Parameters:**
+
+* Beam Voltage ($V_{\text{beam}}$) = $280\text{ V}$
+* Beam Current ($I_{\text{beam}}$) = $20\text{ mA}$
+
+| S.No | Mode Index ($n$) | Mode Number ($N = n + \frac{3}{4}$) | Repeller Voltage $\Vert{}V_{\text{rep}}\Vert{}$ (V) | Output Power $P_{\text{out}}$ (mW) | Resonant Frequency $f_0$ (GHz) | Half-Power Frequencies $f_1 - f_2$ (GHz) | Electronic Tuning Range $\text{ETR}$ (MHz) | Voltage Difference $\Delta V$ (V) | Electronic Tuning Sensitivity $\text{ETS}$ (MHz/V) | Transit Time $T_0$ (ns) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 1 | $1\frac{3}{4}\ (1.75)$ | 200 | 27.5 | 9.170 | 9.145 – 9.208 | 63 | 18 | 3.50 | 0.191 |
+| 2 | 2 | $2\frac{3}{4}\ (2.75)$ | 138 | 20.4 | 9.172 | 9.142 – 9.210 | 68 | 15 | 4.53 | 0.300 |
+| 3 | 3 | $3\frac{3}{4}\ (3.75)$ | 90 | 12.2 | 9.175 | 9.138 – 9.215 | 77 | 13 | 5.92 | 0.409 |
+
+---
+
+### Detailed Point-by-Point Readings for Graph Plotting
+
+#### Mode 1 ($N = 1\frac{3}{4}$)
+
+* Peak Repeller Voltage: $-200\text{ V}$
+* Peak Output Power: $27.5\text{ mW}$
+
+| Repeller Voltage $\Vert{}V_{\text{rep}}\Vert{}$ (V) | Output Power $P_{\text{out}}$ (mW) | Frequency (GHz) |
+| --- | --- | --- |
+| 180 | 0.0 | — |
+| 185 | 8.2 | 9.130 |
+| 191 | 13.8 (Half Power) | 9.145 ($f_1$) |
+| 195 | 22.0 | 9.158 |
+| 200 | 27.5 (Peak) | 9.170 ($f_0$) |
+| 205 | 21.6 | 9.186 |
+| 209 | 13.8 (Half Power) | 9.208 ($f_2$) |
+| 215 | 6.5 | 9.220 |
 
 ## Graph
 
-*(Include your own graph relevant to the experiment.)*
+<img width="696" height="423" alt="WhatsApp Image 2026-10-06 at 8 41 02 AM" src="https://github.com/user-attachments/assets/84b9b1c3-bc87-44e3-8597-360463c60736" />
+
 
 ## Precautions
 
@@ -90,4 +122,4 @@ As the bunches pass back through the resonator grids they interact with the gap 
 
 ## Conclusion
 
-*(Write your own.)*
+Thus the experiment is verified.
